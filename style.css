@@ -9,6 +9,7 @@ body{
 .firstcontent{
     width: 100%;
     max-width: 1300px;
+    box-shadow: 1px 0px 74px -26px rgba(0,0,0,0.57);
 }
 header{
     display: flex;
@@ -67,20 +68,44 @@ article {
 aside {
     width: 30%;
     margin: 16px 0px;
-    background-color: beige;
 }
-.sideContent{
-    background-color: brown;
+.sideContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 80px 0px;
 }
 .minibox{
-    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-h3{
-    background-color: blue;
+.minibox img {
+    margin: 5px 15px 5px 0px;
+    max-width: 25%;
+}
+footer{
+    background-color: black;
 }
 .rodape{
-    background-color: black;
+margin: 0px 115px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
 }
 .whitefont{
     color: white;
+}
+.media{
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.destaque:hover{
+    cursor: pointer;
+    text-decoration: underline 3px solid;
+    padding: 0;
+    margin: 0;
 }
